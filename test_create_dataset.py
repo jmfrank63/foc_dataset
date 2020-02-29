@@ -41,6 +41,7 @@ def test_encode_letter():
 def test_encode_name():
     assert encode_name('A') == 1
     assert encode_name('abcdefgh') == 36
+    assert encode_name('abcd efgh') == 36
 
 
 def test_get_position_and_line_number():
