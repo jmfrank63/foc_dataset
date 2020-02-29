@@ -1,0 +1,104 @@
+TEXTC Text for assignment
+1 Even students who are content to carry out their work largely without supervision
+2 should keep their supervisor in touch with what they are doing. In particular, a
+3 student should not remain silent for months and then appear in late September with a
+4 completed report. If the Exam Board feels that the student's conduct has prevented
+5 adequate supervision, it may insist on a searching oral examination or it may refuse
+6 to accept the project for examination at all.
+7 If the project produces a piece of software, the student will normally be required to
+8 give the supervisor a demonstration of the software in action. The Board may require
+9 a further demonstration at the examination stage.
+10 The supervisor's role is to provide support and encouragement, to direct the student's
+11 attention to relevant literature, occasionally to provide technical assistance, to read
+12 and comment on the draft report and to give guidance on the standard and amount of
+13 work required.
+14 This last point can be a source of difficulty between student and supervisor. Students
+15 naturally look to the supervisor for reassurance that their project merits an MSc. You
+16 must bear in mind that the supervisor can only give you his(her) opinion. Whether a
+17 project is of MSc standard is a matter for the Examination Board to decide. It can
+18 happen, and occasionally does happen, that the supervisor thinks that a project
+19 deserves to pass but the other examiners disagree.
+20 Make sure you allow enough time for writing the report. Some supervisors strongly
+21 recommend that you write the report as you carry out the project, rather than leaving
+22 the write-up until the end. The total time allocated to the report should be about a
+23 month for a full-timer, perhaps two or three months for a part-timer. There has to be
+24 time for the supervisor to read and comment on it and for the student to make
+25 changes (perhaps extensive changes) on the basis of the comments. Bear in mind
+26 that your supervisor is supervising several students and cannot be expected to give
+27 you full and prompt attention if you all produce your draft reports at the same time.
+28 Remember that it is mainly the report that gets examined. An external examiner, for
+29 instance, is presented with a pile of project reports, written by people he does not
+30 know. If a project produced some software, he might be able to see it running, but
+31 often this will be impossible. In most cases, he has to form his judgment purely on
+32 the basis of the report.
+33 The main purpose of the report is to explain what you did in your project. The reader
+34 should be able to see clearly what you set out to do and what you achieved. It should
+35 be primarily a descriptive and evaluative assessment of the final project as
+36 implemented, rather than a chronological account of how the project developed. It
+37 should describe the problems to which you addressed yourself and explain why you
+38 tackled them in the way you did. It should include your own assessment of how
+39 successful the project was. Your stance should be critical and evaluative. Your
+40 project will generally be expected to have achieved its goals, especially if it was
+41 relatively unambitious to start with, but a project which falls short – perhaps a system
+42 is not fully implemented or perhaps the results are disappointing in some way – can
+43 still be acceptable as an MSc project; you can demonstrate your grasp of the topic in
+44 the observations you make about the project's shortcomings.
+45 We do not insist on a rigid format for project reports; projects vary considerably and
+46 the reports naturally reflect this variation. But reports generally run to five or six
+47 chapters, plus appendices. There will be a description of the background to the
+48 project, to set it in context, perhaps with a brief review of relevant literature. There
+49 would usually be a description of the design, possibly but not necessarily using a
+50 formal design methodology, and an account of the implementation, focusing on
+51 important points that you want the examiners to pay attention to rather than
+52 attempting a detailed description of the whole program. (Program documentation is
+53 not a substitute for a project report. Documentation is meant to be consulted as and
+54 when necessary; a report is meant to be read.) There might be a user manual. There
+55 will usually be an account of the testing and, where appropriate, of the user
+56 evaluation. There should be a critical evaluation by the student – strong points and
+57 weak points, lessons learnt, design decisions which, looking back, would be made
+58 differently, ways in which the project could be improved or extended, and so on.
+59 There is no stipulated minimum length. In practice, the length of the text, not
+60 including program listings and the like in appendices, is generally about 8000 to
+61 10000 words, but do not pad out your report to reach this length. The length should
+62 be dictated by what you have to say. A much shorter report would be acceptable if
+63 the content was good. Length in itself is not a virtue; a 20000 word report would be
+64 much too long. Resist the temptation to include general background material – the
+65 sort of material you would expect to find in lecture notes or textbooks. The examiners
+66 want to know about your project. They have many reports to read in a short period
+67 and are not pleased to have their time wasted by waffle.
+68 You should assume that the readers of your report will be academics in computer
+69 science. If the project consisted of developing an application in an area with which a
+70 computer scientist would not necessarily be familiar – such as chemical testing or
+71 dealing in stocks and shares – it might be necessary to include some explanatory
+72 background. Keep this as short as possible. Remember that the project is intended to
+73 show your abilities in computer science.
+74 The work that is presented for the examiners' consideration should be your own,
+75 expressed in your own words. Plagiarism – that is, the presentation of another
+76 person's thoughts or words or designs or programs as though they were your own –
+77 is a serious examination offence and can result in a candidate being disqualified from
+78 ever gaining the degree. Direct quotations from the work of others (published or
+79 unpublished, in print or downloaded from the internet) must always be clearly
+80 identified as such by being placed in quotation marks, and a full reference to the
+81 source must be provided. A series of short quotations from several different sources,
+82 if not clearly identified as such, constitutes plagiarism just as much as an
+83 unacknowledged long quotation from a single source. All projects are routinely
+84 submitted to a plagiarism detection service - see below under "Submission".
+85 These rules apply even to your own work if it was conducted for other purposes. If,
+86 for example, you quote from a report you have produced at work or if you draw upon
+87 work produced for a previous degree or other qualification, you must make this clear.
+88 If you take a program or part of a program from somewhere and incorporate it in your
+89 project, you must make it clear in your report that you are not claiming that this is
+90 your own work. If your project was developed in the context of some large system or
+91 as an extension to previously existing work, it is essential that the reader should be
+92 able to see where the other work ends and your work begins.
+93 Students are advised to pay attention to the quality of their English. All too often, a
+94 project containing good work is marred by a report which is turgid, obscure or simply
+95 ungrammatical. This criticism does not apply solely, or even primarily, to foreign
+96 students. While the project is meant to provide evidence of a student's ability in
+97 Computer Science rather than in English, an examiner cannot be expected to look
+98 kindly on a report that is badly written.
+99 Students vary in how often they need to see their supervisor; supervisors vary in how
+100 often they want to see their students. Something between fortnightly and monthly
+101 should suit both sides. Students should bear in mind that supervisors are often
+102 absent over the summer vacation and should ensure that their work can still move
+103 forward over these periods.
