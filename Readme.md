@@ -11,4 +11,14 @@ optional arguments:
   -h, --help  show this help message and exit
 ```
 
-The script will printout your unique dataset.
+The script will printout your unique dataset. 
+
+Either make executable with
+
+`chmod +x create_dataset.py`
+
+or call with
+
+ `python create_dataset.py`
+
+
