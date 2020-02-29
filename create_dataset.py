@@ -49,7 +49,7 @@ def make_data_set(pos: int, line: int, text_dict: dict, num: int = 15) -> list:
         if len(word_list) >= num:
             break
         try:
-            word = text_dict[line][i].lower()
+            word = text_dict[line][i].lower()[:4]
         except IndexError:
             line += 1
             i = 0
@@ -57,7 +57,7 @@ def make_data_set(pos: int, line: int, text_dict: dict, num: int = 15) -> list:
 
         word = ''.join(filter(str.isalpha, word))
         if len(word) >= 4 and word not in word_list:
-            word_list.append(word[:4])
+            word_list.append(word)
         i += 1
     return word_list
 

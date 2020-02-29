@@ -6,7 +6,8 @@ CONTENT = """TEXT This is the header
 2 This is the second line
 3 This is the third line
 4 This is his(her) text of crappy words
-5 Here are 10000 words"""
+5 Here are 10000 words
+6 Should and Shouldn't care"""
 
 
 @pytest.fixture
@@ -61,3 +62,4 @@ def test_make_data_set(text_dict):
     assert make_data_set(9, 2, text_dict,
                          5) == ['this', 'thir', 'line', 'text', 'crap']
     assert make_data_set(0, 5, text_dict, 2) == ['here', 'word']
+    assert make_data_set(0, 6, text_dict, 2) == ['shou', 'care']
