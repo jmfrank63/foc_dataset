@@ -26,7 +26,7 @@ def encode_letter(letter: str) -> int:
 
 def encode_name(name: str) -> int:
     """ Encode a name to numbers and sum up the numbers """
-    return sum([encode_letter(letter) for letter in name])
+    return sum([encode_letter(letter) for letter in name if letter != " "])
 
 
 def get_position_and_line_number(encode_number: int) -> Tuple[int, int]:
