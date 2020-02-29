@@ -4,7 +4,9 @@ from create_dataset import *
 CONTENT = """TEXT This is the header
 1 This is the first line
 2 This is the second line
-3 This is the third line"""
+3 This is the third line
+4 This is his(her) text of crappy words
+5 Here are 10000 words"""
 
 @pytest.fixture
 def text_dict(tmp_path):
@@ -48,5 +50,7 @@ def test_get_position_and_line_number():
 def test_make_data_set(text_dict):
     assert make_data_set(0, 1, text_dict, 4) == ['this', 'firs', 'line', 'seco']
     assert make_data_set(4, 1, text_dict, 4) == ['line', 'this','seco', 'thir'] 
-    assert make_data_set(0, 2, text_dict, 4) == ['this','seco', 'line', 'thir']   
+    assert make_data_set(0, 2, text_dict, 4) == ['this','seco', 'line', 'thir']
+    assert make_data_set(9, 2, text_dict, 5) == ['this', 'thir', 'line', 'text', 'crap']
+    assert make_data_set(0, 5, text_dict, 2) == ['here', 'word'] 
 

@@ -11,7 +11,9 @@ def read_to_dict(file_name: str = FILE) -> dict:
     """ Read the text file into a dictionary"""
     with open(file_name, 'r') as tfile:
         text_dict = {
-            num: tuple(line.strip('\n').split(' ')[1:])
+            num: tuple(
+                line.strip('\n').replace('(', ' ').replace(')',
+                                                           ' ').split(' ')[1:])
             for num, line in enumerate(tfile)
         }
     return text_dict
@@ -52,6 +54,7 @@ def make_data_set(pos: int, line: int, text_dict: dict, num: int = 15) -> list:
             line += 1
             i = 0
             continue
+
         word = ''.join(filter(str.isalpha, word))
         if len(word) >= 4 and word not in word_list:
             word_list.append(word[:4])
